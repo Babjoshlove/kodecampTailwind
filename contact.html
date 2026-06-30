@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body>
+    <header class=" shadow-md py-4 px-6 flex items-center justify-between
+            flex gap-8 [background-image:radial-gradient(#26A69A_1px,transparent_0.5px)] [background-size:15px_15px]">
+        <div class="logo">
+            <img src="images/Frame 176.svg" alt="">
+        </div>
+        <div class="nav-links flex space-x-3">
+            <div class="nav flex items-center space-x-1">
+                <h4>Features</h4>
+                <img src="images/fe_arrow-down.svg" alt="">
+            </div>
+            <div class="nav flex items-center space-x-1">
+                <h4>How it Works</h4>
+                <img src="images/fe_arrow-down.svg" alt="">
+            </div>
+            <div class="nav flex items-center space-x-1">
+                <h4>Company</h4>
+                <img src="images/fe_arrow-down.svg" alt="">
+            </div>
+            </div>
+            <div class="btn flex space-x-2">
+                <div class="login-btn bg-[#CBFFD0] text-[#26A69A] font-['Poppins'] px-12 py-4 rounded-2xl cursor-pointer hover:bg-[#26A69A] hover:text-[#CBFFD0] transition-all duration-300">
+                    Log-In
+                </div>
+                <div class="sign-btn bg-[#26A69A] text-white font-['Poppins'] px-12 py-4 rounded-2xl cursor-pointer hover:bg-[#CBFFD0] hover:text-[#26A69A] transition-all duration-300">
+                    Sign-Up
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--CONTACT-->
+        <section class="flex flex-col p-16 bg-[#23A3]">
+            <div>
+                <h1 class="text-gray-600 mt-4 text-lg">Contact Us</h1>
+                <p class="text-gray-600 mt-4 text-lg">
+                We'd love to hear from you. Send us a message and we'll get back to you.
+            </p>
+            </div>
+             <!-- Contact Card -->
+        <div class="grid md:grid-cols-2 bg-white rounded-3xl shadow-xl overflow-hidden">
+
+            <!-- Left Side -->
+            <div class="bg-[#26A69A] text-white p-10 flex flex-col justify-center">
+
+                <h2 class="text-3xl font-bold mb-6">
+                    Get in Touch
+                </h2>
+
+                <p class="mb-8 text-gray-100">
+                    Have questions about TrackWise? Reach out to us through any of the channels below.
+                </p>
+
+                <div class="space-y-6">
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📍</span>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📧</span>
+                        <p>john@example.com</p>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📞</span>
+                        <p>+234 800 123 4567</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="p-10">
+
+                <form class="space-y-6">
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="John Doe"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="john@example.com"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="How can we help?"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Message
+                        </label>
+
+                        <textarea
+                            rows="6"
+                            placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="w-50 bg-[#26A69A] text-white py-4 rounded-xl font-semibold hover:bg-[#1f8a80] transition duration-300"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+</body>
+</html>

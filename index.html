@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
 </head>
@@ -27,6 +27,14 @@
                     <h4>Company</h4>
                     <img src="images/fe_arrow-down.svg" alt="">
                 </div>
+                <div class="nav flex items-center space-x-1">
+                    <h4>About Us</h4>
+                    <!-- <img src="images/fe_arrow-down.svg" alt=""> -->
+                </div>
+                <div class="nav flex items-center space-x-1">
+                    <h4><a href="contact.html">Contact Us</a></h4>
+                    <!-- <img src="images/fe_arrow-down.svg" alt=""> -->
+                </div>
             </div>
             <div class="btn flex space-x-2">
                 <div class="login-btn bg-[#CBFFD0] text-[#26A69A] font-['Poppins'] px-12 py-4 rounded-2xl cursor-pointer hover:bg-[#26A69A] hover:text-[#CBFFD0] transition-all duration-300">
@@ -44,18 +52,18 @@
                     daily spending, budget and achieve your financial goals.</p>
 
                 <div>
-                    <img src="images/Actions.svg">
+                    <img src="images/Actions.svg" alt="Actions">
                 </div>
             </div>
             <div>
-                <img src="images/mockuuups-free-macbook-pro-mockup-on-stone-pedestal-removebg-preview 1.svg">
+                <img src="images/mockuuups-free-macbook-pro-mockup-on-stone-pedestal-removebg-preview 1.svg" alt="Mockup">
             </div>
         </section>
         <!---FEATURES-->
        <section class="grid grid-cols-[500px_1fr] gap-16 bg">
             <div class="feature-box1">
-                <img class="absolute h-160 " src="images/Rectangle 605.png" alt="">
-                <img class="top-8 relative h-160" src="images/mockuuups-free-iphone-15-pro-hand-mockup 1.svg" alt="">
+                <img class="absolute h-160 " src="images/Rectangle 605.png" alt="Feature 1">
+                <img class="top-8 relative h-160" src="images/mockuuups-free-iphone-15-pro-hand-mockup 1.svg" alt="Feature 2">
             </div>
             <div class="feature-box2 gap-12 flex flex-col items-center">
                 <div class="self-center flex">
@@ -90,6 +98,118 @@
                 </div>
             </div>
         </section>
+
+        <!--CONTACT-->
+        <section class="flex flex-col p-16 bg-[#23A3]">
+            <div>
+                <h1 class="text-gray-600 mt-4 text-lg">Contact Us</h1>
+                <p class="text-gray-600 mt-4 text-lg">
+                We'd love to hear from you. Send us a message and we'll get back to you.
+            </p>
+            </div>
+             <!-- Contact Card -->
+        <div class="grid md:grid-cols-2 bg-white rounded-3xl shadow-xl overflow-hidden">
+
+            <!-- Left Side -->
+            <div class="bg-[#26A69A] text-white p-10 flex flex-col justify-center">
+
+                <h2 class="text-3xl font-bold mb-6">
+                    Get in Touch
+                </h2>
+
+                <p class="mb-8 text-gray-100">
+                    Have questions about TrackWise? Reach out to us through any of the channels below.
+                </p>
+
+                <div class="space-y-6">
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📍</span>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📧</span>
+                        <p>john@example.com</p>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📞</span>
+                        <p>+234 800 123 4567</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="p-10">
+
+                <form class="space-y-6">
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="John Doe"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="john@example.com"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="How can we help?"
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block font-medium mb-2">
+                            Message
+                        </label>
+
+                        <textarea
+                            rows="6"
+                            placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#26A69A]"
+                        ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="w-full bg-[#26A69A] text-white py-4 rounded-xl font-semibold hover:bg-[#1f8a80] transition duration-300"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </section>
         <footer class="mt-16 flex flex-col gap-8 items-center justify-center bg-[#26A69A] py-16">
             <div class="footer2">
                 <img src="images/streamline-logos_x-twitter-logo-block.svg" alt="">
